@@ -60,9 +60,9 @@ const config = {
         items: [
             {
               type: 'doc',
-              docId: 'wordpress-base/index',
+              docId: 'wordpress/index',
               position: 'left',
-              label: 'WordPress Base',
+              label: 'WordPress',
             },
           {
             type: 'doc',
