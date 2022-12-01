@@ -60,15 +60,15 @@ const config = {
         items: [
             {
               type: 'doc',
-              docId: 'nebula/index',
+              docId: 'wordpress-base/index',
               position: 'left',
-              label: 'Nebula',
+              label: 'WordPress Base',
             },
           {
             type: 'doc',
-            docId: 'pulsar/index',
+            docId: 'wordpress-plugins/index',
             position: 'left',
-            label: 'Pulsar',
+            label: 'WordPress Plugins',
           },
         ],
       },

@@ -1,6 +1,14 @@
+---
+sidebar_position: 3
+---
+
 # WP-CLI Tools
 
+:::info Package URL
+
 https://github.com/eighteen73/wp-cli-tools
+
+:::
 
 ## Overview
 

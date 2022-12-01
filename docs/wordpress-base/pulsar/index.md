@@ -1,12 +1,16 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Pulsar
+# Pulsar Theme
 
-<p>
-  <strong>WordPress starter theme with Tailwind CSS, Alpine JS and a modern development workflow</strong>
-</p>
+:::info Theme URL
+
+https://github.com/eighteen73/pulsar
+
+:::
+
+WordPress starter theme with Tailwind CSS, Alpine JS and a modern development workflow
 
 ## Requirements
 
