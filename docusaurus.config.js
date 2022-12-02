@@ -107,7 +107,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         additionalLanguages: [
-          'ini', 
+          'ini',
           'php',
         ],
       },
