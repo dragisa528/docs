@@ -1,7 +1,3 @@
 # Satellite
 
-:::info Plugin URL
-
-https://github.com/eighteen73/satellite
-
-:::
+<repo-link name="satellite" licence="MIT" />

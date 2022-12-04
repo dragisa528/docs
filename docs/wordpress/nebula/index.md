@@ -4,11 +4,7 @@ sidebar_position: 1
 
 # Nebula Framework
 
-:::info Package URL
-
-https://github.com/eighteen73/nebula
-
-:::
+<repo-link name="nebula" licence="MIT" />
 
 ## Overview
 

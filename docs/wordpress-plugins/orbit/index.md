@@ -1,7 +1,3 @@
 # Orbit
 
-:::info Plugin URL
-
-https://github.com/eighteen73/orbit
-
-:::
+<repo-link name="orbit" licence="MIT" />

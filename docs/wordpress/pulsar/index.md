@@ -4,11 +4,7 @@ sidebar_position: 2
 
 # Pulsar Theme
 
-:::info Theme URL
-
-https://github.com/eighteen73/pulsar
-
-:::
+<repo-link name="pulsar" licence="MIT" />
 
 WordPress starter theme with Tailwind CSS, Alpine JS and a modern development workflow
 

@@ -4,11 +4,7 @@ sidebar_position: 3
 
 # WP-CLI Tools
 
-:::info Package URL
-
-https://github.com/eighteen73/wp-cli-tools
-
-:::
+<repo-link name="wp-cli-tools" licence="MIT" />
 
 ## Overview
 

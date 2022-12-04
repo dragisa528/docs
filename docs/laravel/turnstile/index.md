@@ -1,11 +1,6 @@
 # Turnstile
 
-:::info Package URL
-
-https://github.com/eighteen73/laravel-turnstile
-
-:::
-
+<repo-link name="laravel-turnstile" licence="MIT" />
 
 This Laravel Package simplifies the implementation of [Cloudflare Turnstile](https://www.cloudflare.com/en-gb/products/turnstile/) (a CAPTCHA alternative) on your website.
 
@@ -40,7 +35,7 @@ First, you want to ensure that the Turnstile JavaScript is included on your webs
 
 Use the Blade directive `@turnstileScripts` as follows:
 
-```html
+```html {11}
 <html>
 <head>
 
@@ -58,7 +53,7 @@ Use the Blade directive `@turnstileScripts` as follows:
 
 Then when you wish to protect a form with Turnstile just include the following directive and error response code:
 
-```html
+```html {5-9}
 <form action="..." method="post">
     
     <!-- The rest of your form -->
