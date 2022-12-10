@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Developer Docs',
-  tagline: 'Documentation for eighteen73 developer packages',
+  title: 'eighteen73 Docs',
+  tagline: 'Documentation for open source packages published by eighteen73.',
   url: 'https://docs.eighteen73.co.uk',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -75,28 +75,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
             title: 'More',
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/eighteen73',
+              },
+              {
+                label: 'About us',
+                href: 'https://eighteen73.co.uk',
               },
             ],
           },

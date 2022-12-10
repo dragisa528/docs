@@ -17,8 +17,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/wordpress/nebula">
-            Docusaurus Tutorial - 5min ⏱️
+            to="https://github.com/eighteen73">
+            github.com/eighteen73
           </Link>
         </div>
       </div>
@@ -30,11 +30,22 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="Documentation for open source packages published by eighteen73"
+    >
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <div className="row margin-top--lg">
+          <div className="col col--6 col--offset-3 text--center text--lg">
+            <p><strong>These docs are work-in-progress</strong></p>
+            <p>
+              All the published information is accurate and can be used for reference but 
+              it is incomplete. We are in the process of a company rebrand 
+              and this docs website will be properly launched to coincide with that
+              at the beginning of 2023.
+            </p>
+          </div>
+        </div>
       </main>
     </Layout>
   );
