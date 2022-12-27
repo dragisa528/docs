@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Documentation for open source packages published by eighteen73"
+      description="Documentation for packages published by eighteen73"
     >
       <HomepageHeader />
       <main>

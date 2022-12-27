@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'eighteen73 Docs',
-  tagline: 'Documentation for open source packages published by eighteen73.',
+  tagline: 'Documentation for packages published by eighteen73.',
   url: 'https://docs.eighteen73.co.uk',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -51,23 +51,37 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Developer Docs',
         logo: {
-          alt: 'eighteen73',
-          src: 'img/eighteen73-logo.svg',
+          alt: 'eighteen73 logo',
+          src: 'img/eighteen73-logo-dark.svg',
+          srcDark: 'img/eighteen73-logo-light.svg',
+          width: 110,
+          height: 23,
         },
         items: [
-            {
-              type: 'doc',
-              docId: 'wordpress/index',
-              position: 'left',
-              label: 'WordPress',
-            },
           {
-            type: 'doc',
-            docId: 'wordpress-plugins/index',
-            position: 'left',
-            label: 'WordPress Plugins',
+            type: 'dropdown',
+            label: 'WordPress',
+            items: [
+              {
+                label: 'Build Tools',
+                to: 'wordpress/build-tools',
+              },
+              {
+                label: 'Plugins',
+                to: 'wordpress/plugins',
+              },
+            ]
+          },
+          {
+            type: 'dropdown',
+            label: 'Laravel',
+            items: [
+              {
+                label: 'Packages',
+                to: 'laravel',
+              },
+            ]
           },
         ],
       },
@@ -78,12 +92,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/eighteen73',
+                label: 'Website',
+                href: 'https://eighteen73.co.uk',
               },
               {
-                label: 'About us',
-                href: 'https://eighteen73.co.uk',
+                label: 'GitHub',
+                href: 'https://github.com/eighteen73',
               },
             ],
           },
@@ -97,6 +111,13 @@ const config = {
           'ini',
           'php',
         ],
+      },
+      announcementBar: {
+        id: 'work_in_progress',
+        content: '<strong>These docs are work-in-progress.</strong> All published information is correct but there may be some gaps.',
+        backgroundColor: '#7278cc',
+        textColor: '#ffffff',
+        isCloseable: false,
       },
     }),
 };
