@@ -38,3 +38,7 @@
 .prism-code {
   font-variant-ligatures: none;
 }
+
+.prism-code .comment {
+  font-style: italic;
+}
