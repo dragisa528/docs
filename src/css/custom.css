@@ -5,7 +5,7 @@
  */
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Plus+Jakarta+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;1,8..60,400;1,8..60,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;1,8..60,400;1,8..60,700&display=swap');
 
 /* You can override the default Infima variables here. */
 :root {
@@ -19,7 +19,8 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.05);
   --ifm-font-family-base: 'Plus Jakarta Sans', sans-serif;
   --ifm-heading-font-family: 'Source Serif 4', serif;;
-  --ifm-font-family-monospace: 'Inconsolata', monospace;
+  --ifm-font-family-monospace: 'Victor Mono', monospace;
+  --ifm-code-font-size: 13px;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -32,4 +33,8 @@
   --ifm-color-primary-lighter: #e8b163;
   --ifm-color-primary-lightest: #eec489;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.2);
+}
+
+.prism-code {
+  font-variant-ligatures: none;
 }
