@@ -5,6 +5,15 @@ sidebar_label: create-site
 
 # Create a new website
 
+:::caution
+
+While our other tools are suitable for all developers, this particular command is **very** opinionated and produces an installation tailored to our own preferences. 
+
+We hope you find it useful but you may prefer to set up your website without it.
+
+:::
+
+
 This site installation command will:
 
 - install a fresh copy of WordPress using the [Nebula](https://github.com/eighteen73/nebula) framework
