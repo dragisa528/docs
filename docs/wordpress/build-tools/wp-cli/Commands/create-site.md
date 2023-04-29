@@ -40,9 +40,18 @@ wp eighteen73 create-site /home/joebloggs/foobar
 
 ## Installing with WooCommerce
 
-To pre-install WooCommerce with the new project you should add `--woocommerce` to the command. This must be run at the time of website creation.
+To pre-install WooCommerce with the new project you should add `--woocommerce` to the command.
 
 ```bash
 wp eighteen73 create-site foobar --woocommerce
 ```
 
+## Installing a multisite
+
+To configure the new website as a multisite network you should add `--multisite` to the command. You will be prompted for extra information during installation.
+
+```bash
+wp eighteen73 create-site foobar --woocommerce
+```
+
+Please also refer to [this page](/wordpress/build-tools/nebula/multisite) for information about Nebula's necessary server configuration.
