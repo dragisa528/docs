@@ -51,7 +51,7 @@ wp eighteen73 create-site foobar --woocommerce
 To configure the new website as a multisite network you should add `--multisite` to the command. You will be prompted for extra information during installation.
 
 ```bash
-wp eighteen73 create-site foobar --woocommerce
+wp eighteen73 create-site foobar --multisite
 ```
 
 Please also refer to [this page](/wordpress/build-tools/nebula/multisite) for information about Nebula's necessary server configuration.
